@@ -1,0 +1,90 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/cate/cate",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/cart/cart",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "微信优购",
+		"navigationBarBackgroundColor": "#F24443",
+		"backgroundColor": "#fff",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	//分包
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+			"path": "goods_detail/goods_detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "goods_list/goods_list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+            "path" : "search/search",
+                "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+                }
+        }]
+	}],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/iconfont/Home.png",
+			"selectedIconPath": "static/iconfont/HomeSELECT.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/cate/cate",
+			"iconPath": "static/iconfont/Category.png",
+			"selectedIconPath": "static/iconfont/CategorySELECT.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"iconPath": "static/iconfont/cart.png",
+			"selectedIconPath": "static/iconfont/cartSELECT.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/iconfont/My.png",
+			"selectedIconPath": "static/iconfont/MySELECT.png",
+			"text": "我的"
+		}]
+	}
+}
