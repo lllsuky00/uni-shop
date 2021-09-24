@@ -3,6 +3,8 @@ import App from './App'
 import { $http } from '@escook/request-miniprogram'
 uni.$http = $http
 
+import store from 'store/store.js'
+
 $http.beforeRequest = function(option){
 	uni.showLoading({
 		title:'数据加载中...'
@@ -30,6 +32,7 @@ App.mpType = 'app'
 
 
 const app = new Vue({
-    ...App
+    ...App,
+	store
 })
 app.$mount()
