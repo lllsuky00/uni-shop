@@ -25,23 +25,15 @@
 /* 透明度 */
 /* 文章场景相关 */
 .goods-item {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
   padding: 10px 5px;
   border-bottom: 1px solid #F0F0F0;
 }
 .goods-item .left-box {
   margin-right: 5px;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .goods-item .left-box .goods-pic {
   width: 100px;
@@ -49,33 +41,18 @@
   display: block;
 }
 .goods-item .right-box {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .goods-item .right-box .goods-name {
   font-size: 13px;
 }
 .goods-item .right-box .goods-info-box {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .goods-item .right-box .goods-info-box .goods-price {
   font-size: 16px;

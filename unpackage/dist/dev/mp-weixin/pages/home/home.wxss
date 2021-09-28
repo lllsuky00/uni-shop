@@ -32,11 +32,8 @@ swiper .swiper-item, swiper image {
   height: 100%;
 }
 .nav-list {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
+  justify-content: space-around;
   margin: 15px 0;
 }
 .nav-list .nav-image {
@@ -48,17 +45,11 @@ swiper .swiper-item, swiper image {
   width: 100%;
 }
 .right-box {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .floor-img-box {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
   padding-left: 10rpx;
 }

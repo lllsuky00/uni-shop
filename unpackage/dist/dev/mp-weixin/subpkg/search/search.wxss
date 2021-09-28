@@ -35,15 +35,9 @@
   padding: 0 5px;
 }
 .sugg-list .sugg-item {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   font-size: 13px;
   padding: 15px 0;
   border-bottom: 1px solid #efefef;
@@ -57,25 +51,16 @@
   padding: 0 5px;
 }
 .history-box .history-title {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 40px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
   font-size: 14px;
   border-bottom: 1px solid #efefef;
 }
 .history-box .history-list {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .history-box .history-list uni-tag {
   margin-top: 5px;

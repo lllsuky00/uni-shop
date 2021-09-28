@@ -25,13 +25,8 @@
 /* 透明度 */
 /* 文章场景相关 */
 .uni-numbox.data-v-dd94a2a8 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   height: 35px;
   line-height: 35px;
   width: 120px;
@@ -49,19 +44,10 @@
   border-right-width: 0;
 }
 .uni-numbox__minus.data-v-dd94a2a8 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 35px;
   height: 35px;
   font-size: 20px;
@@ -75,19 +61,10 @@
   border-right-width: 0;
 }
 .uni-numbox__plus.data-v-dd94a2a8 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 35px;
   height: 35px;
   border-width: 1rpx;

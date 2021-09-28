@@ -5,10 +5,14 @@ uni.$http = $http
 
 import store from 'store/store.js'
 
-$http.beforeRequest = function(option){
-	uni.showLoading({
-		title:'数据加载中...'
-	})
+$http.beforeRequest = function(options){
+	uni.showLoading({ title:'数据加载中...' })
+	
+	// console.log(options)
+	//判断当前请求的是否含有有权限的接口（登陆后给url添加/my/表示已有登陆权限）
+	if(options.url.indexOf('/my/') !== -1)	{
+		options.header = { authorization: store.state.m_user.token }
+	}
 }
 $http.afterRequest = function(){
 	uni.hideLoading()

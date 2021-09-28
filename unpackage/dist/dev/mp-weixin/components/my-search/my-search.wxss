@@ -28,26 +28,16 @@
   background-color: #F24443;
   height: 50px;
   padding: 0 20px;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
 }
 .my-search-container .my-search-box {
   height: 36px;
   background-color: white;
   border-radius: 18px;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .my-search-container .my-search-box .placeholder {
